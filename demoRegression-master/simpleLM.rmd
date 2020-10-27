@@ -1,6 +1,6 @@
 ---
 title: "simpleRegress"
-author: "put your name here"
+author: "Kristina Larson"
 date: "Fall 2020"
 output: html_document
 ---
@@ -34,3 +34,13 @@ predict(simp,new,se.fit=TRUE)
 ```
 ## Surely there is another variable that can better predict LENGTH than NECK. Find one and compare its performance to that of neck by it value of Adjusted-Rsquared (bigger is better).
 
+```{r}
+chest <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(chest)
+summary.lm(chest)
+```
+
+
+
+The adjusted R-squared value for the chest is a better model than the adjusted R-squared value for the neck by a value of 0.7869 to 0.7476. 
