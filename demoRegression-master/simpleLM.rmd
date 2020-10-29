@@ -43,4 +43,4 @@ summary.lm(length)
 
 
 
-The adjusted R-squared value for the chest is a better model than the adjusted R-squared value for the neck by a value of 0.7869 to 0.7476. 
+The adjusted R-squared value for the chest is a better model than the adjusted R-squared value for the neck by a value of 0.8434 to 0.7476. 
